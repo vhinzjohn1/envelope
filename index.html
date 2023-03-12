@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation Letter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Decee</strong>
+                        <p>
+                            &ensp; I hope this letter finds you well. 
+                            As we approach the end of midterms exam, 
+                            &ensp; I wanted to extend an invitation to join me for 
+                            dinner this weekend. I know how stressful this time 
+                            can be, and I thought it would be a great opportunity 
+                            for us to unwind and celebrate together.
+                        </p>
+                        <p>
+                            &emsp;Please let me know what time and day would be more
+                            convenient, so we can adjust accordingly po.
+                        </p>
+                        <p>
+                            Hoping for a positive response🤍
+                        </p>
+                        <p class="ending">
+                            &emsp;Best Regards,
+                        </p>
+                        <p>
+                            &emsp;&emsp; vhinz
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
