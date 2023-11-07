@@ -3,7 +3,7 @@
 
 :root{
   --primary: #fff;
-  --bg-color: rgb(5, 53, 61);
+  --bg-color: rgb(50, 153, 172);
   --bg-envelope-color: #f5edd1;
   --envelope-tab: #ecdeb8;
   --envelope-cover: #e6cfa7;
@@ -21,11 +21,10 @@ body{
   justify-content: left;
 }
 .container {
-  margin-left: 10%;
-  margin-top: 34%;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -60%);
 }
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
@@ -63,7 +62,7 @@ body{
   right: 60px;
   bottom: 0;
   width: 52%;
-  height: 230px;
+  height: 210px;
   background: var(--primary);
   text-align: center;
   transition: all 1s ease-in-out;
@@ -76,7 +75,7 @@ body{
   color: var(--txt-color);
   text-align: justify;
   font-size: 0.65rem;
-  margin-top: -17px;
+  margin-top: -15px;
 }
 .heart {
   position: relative;
