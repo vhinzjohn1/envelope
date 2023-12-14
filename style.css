@@ -73,7 +73,7 @@ body{
 .envelope > .letter > .text {
   color: var(--txt-color);
   text-align: justify;
-  font-size: 0.55rem;
+  font-size: 0.58rem;
   margin-top: -15px;
 }
 .heart {
